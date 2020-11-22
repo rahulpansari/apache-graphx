@@ -18,6 +18,15 @@ GraphX contains an implementation of the algorithm in the ConnectedComponents ob
 Triangle counting gained popularity in social network analysis, where it is used to detect communities and measure the cohesiveness of those communities. It can also be used to determine the stability of a graph, and is often used as part of the computation of network indices, such as the clustering coefficient.
 The local clustering coefficient of a node is the likelihood that its neighbours are also connected. The computation of this score involves triangle counting.
 
+There are two types of clustering coefficient:
+
+Local clustering coefficient
+    The local clustering coefficient of a node is the likelihood that its neighbours are also connected. The computation of this score involves triangle counting. 
+Global clustering coefficient
+    The global clustering coefficient is the normalized sum of those local clustering coefficients.
+    
+    
+
 
 
 # iii) Page Rank
